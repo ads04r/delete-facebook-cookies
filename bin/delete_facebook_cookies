@@ -1,0 +1,3 @@
+USERNAME='ash'
+PROFILE='ffvuafwk'
+echo "delete from moz_cookies where baseDomain like '%facebook.com' or host like '%facebook.com';" | sqlite3 /home/$USERNAME/.mozilla/firefox/$PROFILE.default/cookies.sqlite
